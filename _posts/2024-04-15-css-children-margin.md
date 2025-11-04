@@ -1,5 +1,5 @@
 ---
-title: CSS: 자식요소의 여백이 왜 부모 요소에 적용되나요?
+title: CSS 자식요소의 여백이 왜 부모 요소에 적용되나요?
 date: 2024-04-15 10:00:00 +0900
 categories: [Frontend]
 tags: [HTML/CSS]
