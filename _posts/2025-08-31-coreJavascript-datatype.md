@@ -1,6 +1,6 @@
 ---
 title: 코어자바스크립트 - 데이터타입
-date: 2025-06-30 10:00:00 +0900
+date: 2025-08-31 10:00:00 +0900
 categories: [Frontend]
 tags: [JavaScript]
 ---
