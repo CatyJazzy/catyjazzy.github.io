@@ -1,5 +1,5 @@
 ---
-title: JavaScript: 옵셔널 체이닝 ?.
+title: JavaScript 옵셔널 체이닝 ?.
 date: 2022-06-09 10:00:00 +0900
 categories: [Frontend]
 tags: [JavaScript]

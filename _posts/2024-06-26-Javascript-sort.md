@@ -1,5 +1,5 @@
 ---
-title: JavaScript: 문자열 비교와 지혜롭게 sort()활용하기
+title: JavaScript 문자열 비교와 지혜롭게 sort()활용하기
 date: 2024-06-26 10:00:00 +0900
 categories: [Frontend]
 tags: [JavaScript]

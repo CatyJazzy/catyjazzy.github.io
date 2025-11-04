@@ -1,5 +1,5 @@
 ---
-title: JavaScript: setTimeout & setInterval
+title: JavaScript setTimeout & setInterval
 date: 2024-06-05 10:00:00 +0900
 categories: [Frontend]
 tags: [JavaScript]

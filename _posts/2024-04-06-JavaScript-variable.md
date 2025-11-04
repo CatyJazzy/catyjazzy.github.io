@@ -1,5 +1,5 @@
 ---
-title: JavaScript: 변수 선언위치에 대해
+title: JavaScript 변수 선언위치에 대해
 date: 2024-04-06 10:00:00 +0900
 categories: [Frontend]
 tags: [JavaScript]
