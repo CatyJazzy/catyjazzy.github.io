@@ -112,7 +112,7 @@ git에서 관리하는 브랜치 정보가 들어있으며 로컬과 원격 저�
 
 index 파일은 이후 살펴볼 git add 명령어를 통해 staging area에 올라온 파일들을 저장한다. 자세한 구성은 아래를 참고하자. index 파일을 통해 수정된 파일이 있는지 확인하고, 커밋할 파일을 판단하기도 한다.
 
-![(출처: [https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/))](/assets/img/posts/git-internals/Untitled%206.png)
+![(출처: [https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/))](/assets/img/posts/git-terminal-3.png)
 
 (출처: [https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/))
 
@@ -234,7 +234,7 @@ git merge hotfix
 
 이 케이스의 경우 **`fast-forward`**방식으로 합쳐진다. hotfix가 가리키는 C4의 부모가 main의 C2이기 때문에 단순히 합칠 브랜치(main)의 포인터가 최신 커밋으로 이동하게 된다. 도식으로 확인하면 아래와 같다. 이후 `git branch -d hotfix` 를 통해 삭제하면 깔끔해진다. 
 
-![Untitled](/assets/img/posts/hotfix-branch2.png)
+![Untitled](/assets/img/posts/hotfix-branch-2.png)
 
 **2) iss53과 main(master)를 merge할 때**
 

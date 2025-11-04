@@ -9,7 +9,7 @@ tags: [회고]
 
 **바로 개발자로 성장하는 과정의 필터링 없는 내 감정과 경험들을 담는 인스타그램 계정**이다. 베이직 수료 후기를 적으려 하니 그 계정에 적어왔던 나의 웃픈 다짐들이 생각났다. 파노라마같이 특정 순간들이 스쳐 지나간다. 지원서 제출 전 시니어 개발자분의 냉철한 피드백을 받으며 운 적도 있었고, 베이직이라는 기회가 주어지는 만큼 반드시 잠재력을 증명하겠다는 승부욕이 생기기도 했었다.
 
-![Image](/assets/img/posts/instagram.png)
+![Image](/assets/img/posts/instagram-history.png)
 
 처음엔 할 수 있을까- 하는 의심, 걱정, 떨림과 함께 지원하게 되었지만 오히려 준비 과정에서 자신감을 얻었다. 당장의 실력만이 아니라 잠재력을 평가하는 것이라면 충분히 가능할 것이라 생각했다. *"나에게 희박한 1%의 가능성이라도 있다면, 그 작은 확률에 내 200%를 걸자"* 고 생각했다. ~~(이 문구를 실제로 노션에 적고 매일 되짚곤 했는데 지금보니 오글거 . . 린 ㄷ. . 다)~~
 
@@ -153,6 +153,6 @@ why에 대한 고민은 구체적으로 다음과 같은 상황에 도움이 되
 
 어디서든 살아남을 수 있는 야생의 무적 슈퍼마리오!
 
-![[출처: https://www.nicepng.com/ourpic/u2q8q8i1a9u2t4o0_super-mario-star-power/#google_vignette]](/assets/posts/img/star-mario.jpeg)
+![출처: https://www.nicepng.com/ourpic/u2q8q8i1a9u2t4o0_super-mario-star-power/#google_vignette](/assets/img/posts/star-mario.jpeg)
 
 [출처: https://www.nicepng.com/ourpic/u2q8q8i1a9u2t4o0_super-mario-star-power/#google_vignette]

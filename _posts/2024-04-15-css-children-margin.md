@@ -11,7 +11,7 @@ tags: [HTML/CSS]
 
 해당 현상은 생각보다 자주 겪었던 것 같은데 그때그때 해결만 했을 뿐 정리를 하지 않아서 탐구해보기로 함!
 
-![image.png](/assets/img/posts/css-children-margin/image.png)
+![image.png](/assets/img/posts/css-children-margin.png)
 
 ## 🍊 도대체 이 현상은 무엇인가?
 
