@@ -73,7 +73,7 @@ let msg = "Hello";
 
 (3) msg에 @5051에 저장된 “Hello” 값을 할당한다.
 
-![image.png](WHATEVER/SPRINT/Core%20JavaScript/Note1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85/image.png)
+![image.png](/assets/img/posts/js-dataType-1.png)
 
 만약 값이 바뀐다면 어떻게 될까?
 
@@ -84,7 +84,7 @@ msg = "Bye";
 
 @5051에 있던 “Hello”값을 바꾸는 것이 아니라, 아예 새로운 공간(@5052)에 필요한 값을 저장하여 주소를 바꾼다. 
 
-![image.png](WHATEVER/SPRINT/Core%20JavaScript/Note1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85/image%201.png)
+![image.png](/assets/img/posts/js-dataType-2.png)
 
 그럼 자연스러운 걱정이 생긴다 … 🤔 저렇게 immutable하게 매번 새롭게 값을 만든다면, 기존값으로 저장되었던 공간들이 **낭비되는 것 아닌가?** 
 
@@ -117,7 +117,7 @@ let user = {
 }
 ```
 
-![image.png](WHATEVER/SPRINT/Core%20JavaScript/Note1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85/image%202.png)
+![image.png](/assets/img/posts/js-object-1.png)
 
 **특정 프로퍼티의 값들이 기본형이 아닌, 또다른 객체라면 어떻게 될까?** 같은 원리다. 특정 프로퍼티에 또 간접 참조(그림에서 화살표 2개로 값에 접근하는 방식)가 생기는 것이다.  
 
@@ -130,7 +130,7 @@ let user = {
 
 car 프로퍼티의 값이 배열이다. 배열도 참조형 데이터이므로, 아래의 사진처럼 5051 공간에서 3002를 가리키고, 3002가 실제 값을 저장할 공간들의 범위를 갖게 된다. 
 
-![image.png](WHATEVER/SPRINT/Core%20JavaScript/Note1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85/image%203.png)
+![image.png](/assets/img/posts/js-object-2.png)
 
 자! 이제 하이라이트다. 참조형 데이터 타입을 잘 이해해야 하는 이유를 말해주는 상황이기도 하다. **만약 위의 user 객체를 그대로, ‘guest’라는 변수에 담았다고 해보자.**
 
@@ -147,7 +147,7 @@ guest.car = "QM3";
 
 그러면 메모리에서는 아래와 같이 복사된다. user가 참조하기 위해 가지고 있던, 주소 @3001이 guest가 참조하는 값으로 복사된다. 
 
-![image.png](WHATEVER/SPRINT/Core%20JavaScript/Note1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85/image%204.png)
+![image.png](/assets/img/posts/js-object-3.png)
 
 ```jsx
 guest.car = "QM3";
@@ -155,7 +155,7 @@ guest.car = "QM3";
 
 그 다음 guest.car에 접근하여 값을 “QM3”로 바꾸었다. 즉, @5051에서 3002를 더이상 참조하지 않고 “QM3”라는 새로운 값을 할당한, @5052를 바라보게 된다.
 
-![image.png](WHATEVER/SPRINT/Core%20JavaScript/Note1%20%EB%8D%B0%EC%9D%B4%ED%84%B0%ED%83%80%EC%9E%85/image%205.png)
+![image.png](/assets/img/posts/js-object-4.png)
 
 핵심은, 이것이 user에게도 그대로 적용된다는 점이다. 어차피 user, guest 모두 3001을 바라보고 있으므로! guest에서 3001이 참조하던 5051의 값을 바꾸었다면, 그건 user가 참조하던 5051의 값을 바꾼 것이나 마찬가지다. 
 

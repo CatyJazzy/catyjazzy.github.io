@@ -9,7 +9,7 @@ tags: [회고]
 
 **바로 개발자로 성장하는 과정의 필터링 없는 내 감정과 경험들을 담는 인스타그램 계정**이다. 베이직 수료 후기를 적으려 하니 그 계정에 적어왔던 나의 웃픈 다짐들이 생각났다. 파노라마같이 특정 순간들이 스쳐 지나간다. 지원서 제출 전 시니어 개발자분의 냉철한 피드백을 받으며 운 적도 있었고, 베이직이라는 기회가 주어지는 만큼 반드시 잠재력을 증명하겠다는 승부욕이 생기기도 했었다.
 
-![](https://blog.kakaocdn.net/dna/QsTGH/btsIv7VvYLr/AAAAAAAAAAAAAAAAAAAAAN1lp-peWfvs65txhlQbVvsH3t1wa-lrv0IDALEeLt_A/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=0vLAxKP7zfmWO9UeORmW7I%2Bs2Ic%3D)
+![Image](/assets/img/posts/instagram.png)
 
 처음엔 할 수 있을까- 하는 의심, 걱정, 떨림과 함께 지원하게 되었지만 오히려 준비 과정에서 자신감을 얻었다. 당장의 실력만이 아니라 잠재력을 평가하는 것이라면 충분히 가능할 것이라 생각했다. *"나에게 희박한 1%의 가능성이라도 있다면, 그 작은 확률에 내 200%를 걸자"* 고 생각했다. ~~(이 문구를 실제로 노션에 적고 매일 되짚곤 했는데 지금보니 오글거 . . 린 ㄷ. . 다)~~
 
@@ -23,7 +23,7 @@ tags: [회고]
 
 베이직 과정에서의 성장을 설명하자면, 모름지기 Before-After가 있어야 하지 않을까. 베이직 수료 전의 나를 비유하자면, **쿠키런 속 쿠키**와 같다. 어떻게든 열심히 뛰어가는 쿠키인데, 내가 뭘 먹고 있는지, 맵은 어떻게 생겼는지 잘 모르는 쿠키다.
 
-![](https://blog.kakaocdn.net/dna/cRRkuk/btsIv7OKt54/AAAAAAAAAAAAAAAAAAAAAKUU4CtITLYQkRN-LZdk2JNopEGgjtP1VMnAlZ9pTJ6u/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=py%2BU1AVe616x7hr5rafP%2BRaLVvM%3D)
+![Image](/assets/img/posts/cookie-run.png)
 
 게임에서는 좋은 아이템을 빨리 얻는 법, 게임머니를 단기간에 많이 쌓는 방법 등 여러 가지 편법에 대한 정보가 떠돌아다니기 마련이다. 이처럼 "좋은 개발자"에겐 무엇이 필요한지 모른 채, 다른 이들이 학습하는 것들과 그렇게 보이는 것들을 따라가기에 급급했다. 돌아볼 시간보다는 하루라도 더 빨리 더 많은 내용들을 학습하고 정리하기 위해 조급함을 느꼈다.
 
@@ -39,7 +39,7 @@ tags: [회고]
 
 베이직 수료 후 나는 **슈퍼마리오**로 성장할 수 있었다. (어찌보면 2D에서 3D로의 성장으로도 보인다..) 쿠키런 속 쿠키처럼 맵에서 주어지는 아이템들과 코인들을 수동적으로 급하게 받아들이지 않는다. 마리오처럼 나에게 필요한 아이템을 직접 판단하고, 활용하며, 히든 미션은 없는지 탐험하고 즐길 수 있게 되었다. 이 비유가 부스트캠프에서 강조하는 "문제 해결력"과도 연결될 수 있다고 생각한다.
 
-![](https://blog.kakaocdn.net/dna/JhO2e/btsIt56bhII/AAAAAAAAAAAAAAAAAAAAAG318SKMiHfF-pso1jGL1dJLpJ13NF8rKW3y7k5DANFc/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=ecejZU8rBWp5pwPrvv1iOWi4wkY%3D)
+![Image](/assets/img/posts/super-mario.jpeg)
 
 나의 변화한 점들을 요약하자면 다음과 같다
 
@@ -153,6 +153,6 @@ why에 대한 고민은 구체적으로 다음과 같은 상황에 도움이 되
 
 어디서든 살아남을 수 있는 야생의 무적 슈퍼마리오!
 
-![[출처: https://www.nicepng.com/ourpic/u2q8q8i1a9u2t4o0_super-mario-star-power/#google_vignette]](https://blog.kakaocdn.net/dna/bUmmV4/btsIvR7BScO/AAAAAAAAAAAAAAAAAAAAAALQKAb68M9aqrbGnatWFJ9CHX-i6G2fNSKSGv11Rxqb/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=1otdrdXlAba35oZM9XE8270rDA4%3D)
+![[출처: https://www.nicepng.com/ourpic/u2q8q8i1a9u2t4o0_super-mario-star-power/#google_vignette]](/assets/posts/img/star-mario.jpeg)
 
 [출처: https://www.nicepng.com/ourpic/u2q8q8i1a9u2t4o0_super-mario-star-power/#google_vignette]

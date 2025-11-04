@@ -9,7 +9,7 @@ tags: [React]
 
 (테스트해본 결과 Window에서만 의도한 대로 활성화되지 않고, Mac 환경에서만 활성화되고 있는 상태)
 
-![image.png](%EC%9A%B0%ED%81%B4%EB%A6%AD%20%EC%8B%9C%20%EC%9D%B4%EB%8F%99%EB%AA%A8%EB%93%9C%20%ED%99%9C%EC%84%B1%ED%99%94%EB%90%98%EB%8A%94%20%EC%98%A4%EB%A5%98%EC%88%98%EC%A0%95/image.png)
+![image.png](/assets/img/posts/rightClick-bug.png)
 
 ### 🔎 이동활성화 로직 살펴보기
 
@@ -35,7 +35,7 @@ onTouchEnd={move.callbacks.endHold}
 
 코어자바스크립트의 학습용 블록에서는 아래와 같이 나온다. 
 
-![image.png](%EC%9A%B0%ED%81%B4%EB%A6%AD%20%EC%8B%9C%20%EC%9D%B4%EB%8F%99%EB%AA%A8%EB%93%9C%20%ED%99%9C%EC%84%B1%ED%99%94%EB%90%98%EB%8A%94%20%EC%98%A4%EB%A5%98%EC%88%98%EC%A0%95/image%201.png)
+![image.png](/assets/img/posts/click-event.png)
 
 그런데 우리팀 구현코드 핸들러 함수들에서 출력해보면
 
@@ -109,4 +109,4 @@ const startHold = (node: Node, e: KonvaInteractionEvent) => {
 > get/set preventDefault By default all shapes will prevent default behavior of a browser on a pointer move or tap. that will prevent native scrolling when you are trying to drag&drop a node but sometimes you may need to enable default actions in that case you can set the property to false
 > 
 
-![image.png](%EC%9A%B0%ED%81%B4%EB%A6%AD%20%EC%8B%9C%20%EC%9D%B4%EB%8F%99%EB%AA%A8%EB%93%9C%20%ED%99%9C%EC%84%B1%ED%99%94%EB%90%98%EB%8A%94%20%EC%98%A4%EB%A5%98%EC%88%98%EC%A0%95/image%202.png)
+![image.png](/assets/img/posts/konva-event.png)

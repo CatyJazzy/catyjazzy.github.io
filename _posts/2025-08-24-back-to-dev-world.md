@@ -5,7 +5,7 @@ categories: [Thoughts]
 tags: [회고]
 ---
 
-![사진출처: [https://parkhyojungstudio.tistory.com/23](https://parkhyojungstudio.tistory.com/23)](%EA%B0%9C%EB%B0%9C%EC%9D%B4%20%EB%8B%A4%EC%8B%9C%20%EC%9E%AC%EB%B0%8C%EC%96%B4%EC%A7%84%20%EC%9D%B4%EC%9C%A0%EC%99%80%20%EA%B7%BC%ED%99%A9%20(feat%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%20%EC%A0%9C%ED%92%88%20%EA%B0%9C%EB%B0%9C)/image.png)
+![사진출처: [https://parkhyojungstudio.tistory.com/23](https://parkhyojungstudio.tistory.com/23)](/assets/img/posts/gabbys-coffee.png)
 
 사진출처: [https://parkhyojungstudio.tistory.com/23](https://parkhyojungstudio.tistory.com/23)
 
@@ -66,7 +66,7 @@ tags: [회고]
     - 예를 들어, 기능구현의 경우: 기존 로직 분석 / 세부계획 및 공수 산정 / 관련 이슈 메모
     - FIX의 경우: 재현조건 / 긴급도 / 관련 PR 링크 등의 항목으로 구성하였다.
 
-![image.png](%EA%B0%9C%EB%B0%9C%EC%9D%B4%20%EB%8B%A4%EC%8B%9C%20%EC%9E%AC%EB%B0%8C%EC%96%B4%EC%A7%84%20%EC%9D%B4%EC%9C%A0%EC%99%80%20%EA%B7%BC%ED%99%A9%20(feat%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%20%EC%A0%9C%ED%92%88%20%EA%B0%9C%EB%B0%9C)/image%201.png)
+![image.png](/assets/img/posts/team-workflow.png)
 
 이렇게 하니 몇 가지 문제가 있었다.
 
@@ -78,7 +78,7 @@ DX를 강조하는 팀의 마음을 알 것 같다. 혼자서 할 때도 **히�
 
 현재는 노션 대쉬보드를 다시 개편하여, 이슈 목록은 독립적인 데이터베이스로 분리하고, FE뿐만 아니라 다른 범위의 일들도 관리될 수 있도록 변경했다. 다만, 역시 이 방식 또한 팀과의 동기화 이슈가 있기에 … 앞으로 계속해서 고민해봐야 할 문제다. 
 
-![image.png](%EA%B0%9C%EB%B0%9C%EC%9D%B4%20%EB%8B%A4%EC%8B%9C%20%EC%9E%AC%EB%B0%8C%EC%96%B4%EC%A7%84%20%EC%9D%B4%EC%9C%A0%EC%99%80%20%EA%B7%BC%ED%99%A9%20(feat%20%EC%8A%A4%ED%83%80%ED%8A%B8%EC%97%85%20%EC%A0%9C%ED%92%88%20%EA%B0%9C%EB%B0%9C)/image%202.png)
+![image.png](/assets/img/posts/project-board.png)
 
 ## 개발자 관점에서의 회고
 

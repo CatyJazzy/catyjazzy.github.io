@@ -5,7 +5,7 @@ categories: [Frontend]
 tags: [JavaScript]
 ---
 
-![image.png](JavaScript%20%EB%AC%B8%EC%9E%90%EC%97%B4%20%EB%B9%84%EA%B5%90%EC%99%80%20%EC%A7%80%ED%98%9C%EB%A1%AD%EA%B2%8C%20sort()%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0/image.png)
+![image.png](/assets/img/posts/Javascript-hat.png)
 
 요즘 너무나 알찬 시간을 보내고 있는데, 이것저것 다 공부하고 싶은 욕심에 정리하는 시간이 줄어든 것 같다 🥲 BUT 언제나 목적이 수단과 전치되어서는 안된다. 형식적으로 보여주기 위한 정리는 정리의 본질인 "학습과 공유"를 흐린다. 퀄리티가 떨어져 좋은 글을 공유하지 못하고, 정리하며 복습되는 효과도 떨어지기 때문이다.
 

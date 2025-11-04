@@ -5,7 +5,7 @@ categories: [Frontend]
 tags: [React]
 ---
 
-![모바일우클릭.gif](%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%EC%84%A0%20%EC%A1%B0%EC%9E%91/%25E1%2584%2586%25E1%2585%25A9%25E1%2584%2587%25E1%2585%25A1%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%258B%25E1%2585%25AE%25E1%2584%258F%25E1%2585%25B3%25E1%2586%25AF%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25A8.gif)
+![모바일우클릭.gif](/assets/img/posts/node-control-mobile/moblie-node.gif)
 
 ## 🤔 모바일 환경에 대한 고민 배경
 
@@ -40,6 +40,16 @@ tags: [React]
 
 이전에 edge 생성 방식에 대한 예시를 알아보기 위해 아래의 두 가지 케이스를 조사했었다. yjs에서 제공한 예시 외에 다른 그래프뷰 동시편집 데모에서도 edit모드를 활성화하는 버튼이 따로 있는 케이스가 많았다. 
 
+1. **react-flow 데모 예시**
+: 간선 사이에 x 버튼이 표시되어 있음
+
+[Image](/assets/img/posts/react-flow-demo.png)
+
+2. **yjs 꿀렁꿀렁 그래프 예시**
+: 노드, 간선 편집 모드가 별도로 있음. 이때 편집할 엣지를 클릭하면 하이라이팅 되는 형태
+[Image](/assets/img/posts/yjs-demo.png)
+
+
 그럼 우리도 ***edit 모드를 따로 구현하여 이를 전환할 수 있는 버튼이 있어야 할까?*** 정답이 있는 것은 아니지만 원했던 방향은 아니라고 생각했다.
 
 HoneyFlow의 가장 큰 강점이자 목표는 쉬운 인터랙션을 통한 지식 구조 관리다. 조작 과정에서 조금이라도 중간단계가 많아지면 이 특징을 해칠 것이다.
@@ -56,7 +66,7 @@ HoneyFlow의 가장 큰 강점이자 목표는 쉬운 인터랙션을 통한 지
 
 문득 점3개의 더보기가 떠올랐다. 위의 react-flow의 데모 예시에서 간선을 삭제할 수 있는 버튼이 있듯이, context-menu를 트리거 할 장치를 만들어주는 것이다!
 
-![image.png](%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%EC%84%A0%20%EC%A1%B0%EC%9E%91/image.png)
+![image.png](/assets/img/posts/more-button.png)
 
 노드의 예쁜 외관을 해치니, 더보기 버튼은 모바일 환경에서”만” 넣고 싶었다. 따라서 우리가 구현한 Node 컴포넌트에서 모바일 환경을 식별할 방법이 필요하다.
 
@@ -68,9 +78,9 @@ HoneyFlow의 가장 큰 강점이자 목표는 쉬운 인터랙션을 통한 지
 
 (1) **navigator.userAgent**를 통해 아래와 같이 확인되는 값으로 식별하는 방법
 
-![image.png](%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%EC%84%A0%20%EC%A1%B0%EC%9E%91/image%201.png)
+![image.png](/assets/img/posts/user-agent-1.png)
 
-![image.png](%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%EC%84%A0%20%EC%A1%B0%EC%9E%91/image%202.png)
+![image.png](/assets/img/posts/user-agent-2.png)
 
 (2) **터치스크린의 유무**를 통해 식별하는 방법
 
@@ -151,7 +161,7 @@ const [isTouch, setIsTouch] = useState(false);
 
 다행히도 Konva에서 특정 이벤트를 발생하는 메서드를 제공한다.
 
-![image.png](%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%EC%84%A0%20%EC%A1%B0%EC%9E%91/image%203.png)
+![image.png](/assets/img/posts/konva-fire.png)
 
 KonvaEventObject의 내부 타입을 살펴보면 아래와 같다.
 
@@ -190,7 +200,7 @@ parentNode.fire("contextmenu", {
 
 반응 속도가 좀 느린데, 내 아이폰에서 테스트해보기 위해 ios를 업데이트하고 있다 ^^ websocket 관련한 브라우저 이슈가 있어서 테스트도 못한다. 
 
-![모바일우클릭.gif](%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%EC%84%A0%20%EC%A1%B0%EC%9E%91/%25E1%2584%2586%25E1%2585%25A9%25E1%2584%2587%25E1%2585%25A1%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%258B%25E1%2585%25AE%25E1%2584%258F%25E1%2585%25B3%25E1%2586%25AF%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25A8.gif)
+![모바일우클릭.gif](/assets/img/posts/mobile-success.gif)
 
 ## 🚨 간선 삭제는 어떻게 해야 할까?
 
@@ -200,7 +210,7 @@ parentNode.fire("contextmenu", {
 
 그럼에도 LongClick을 활용하기엔 애매했다. 간선의 영역이 얇고 길기 때문에 이벤트 감지가 원활하지 않을 수도 있겠다고 생각했다. 간선 삭제도 별도의 버튼을 가져가되, 간선의 중점에 표시하도록 했다.
 
-![모바일간선.gif](%EB%AA%A8%EB%B0%94%EC%9D%BC%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%EC%84%A0%20%EC%A1%B0%EC%9E%91/%25E1%2584%2586%25E1%2585%25A9%25E1%2584%2587%25E1%2585%25A1%25E1%2584%258B%25E1%2585%25B5%25E1%2586%25AF%25E1%2584%2580%25E1%2585%25A1%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A5%25E1%2586%25AB.gif)
+![모바일간선.gif](/assets/img/posts/mobile-delete.gif)
 
 ## Reference
 

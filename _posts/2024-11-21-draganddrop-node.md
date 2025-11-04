@@ -5,7 +5,7 @@ categories: [Frontend]
 tags: [React]
 ---
 
-![간성생성.gif](%EB%93%9C%EB%9E%98%EA%B7%B8%EC%95%A4%EB%93%9C%EB%A1%AD%EC%9C%BC%EB%A1%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%20%EA%B0%84%EC%84%A0%20%EC%83%9D%EC%84%B1/%25E1%2584%2580%25E1%2585%25A1%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A5%25E1%2586%25BC%25E1%2584%2589%25E1%2585%25A2%25E1%2586%25BC%25E1%2584%2589%25E1%2585%25A5%25E1%2586%25BC.gif)
+![간선생성.gif](/assets/img/posts/create-edge.gif)
 
 ## 🤔 초기 구상
 
@@ -26,7 +26,7 @@ tags: [React]
 
 ---
 
-![image.png](%EB%93%9C%EB%9E%98%EA%B7%B8%EC%95%A4%EB%93%9C%EB%A1%AD%EC%9C%BC%EB%A1%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%20%EA%B0%84%EC%84%A0%20%EC%83%9D%EC%84%B1/image.png)
+![image.png](/assets/img/posts/konva-cap.png)
 
 ```jsx
 if (haveIntersection(group.getClientRect(), targetRect)) {
@@ -47,9 +47,9 @@ Konva의 공식문서에서는 `getClientRect()메소드`를 아래와 같이 �
 
 아래의 붉은 테두리가 getClientRect를 통해 표시된 Konva 노드의 크기이고, collision이 감지되었을 때 해당 도형을 붉은 색으로 표시하는 예시다.
 
-![[https://konvajs.org/docs/sandbox/Collision_Detection.html](https://konvajs.org/docs/sandbox/Collision_Detection.html)](%EB%93%9C%EB%9E%98%EA%B7%B8%EC%95%A4%EB%93%9C%EB%A1%AD%EC%9C%BC%EB%A1%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%20%EA%B0%84%EC%84%A0%20%EC%83%9D%EC%84%B1/image%201.png)
+![Collision Detection](https://konvajs.org/docs/sandbox/Collision_Detection.html)
 
-[https://konvajs.org/docs/sandbox/Collision_Detection.html](https://konvajs.org/docs/sandbox/Collision_Detection.html)
+[https://konvajs.org/docs/sandbox/Collision_Detection.html](/assets/img/posts/konva-rect.png)
 
 **HoneyFlow에 적용하면 다음과 같다.**
 
@@ -78,13 +78,13 @@ function handleDragEnd() {
 
 이렇게 하면 1차적으로는 잘 작동하는데, **엣지케이스**와 **영상에서도 보이는 버그**를 생각해봐야 한다.
 
-![간성생성.gif](%EB%93%9C%EB%9E%98%EA%B7%B8%EC%95%A4%EB%93%9C%EB%A1%AD%EC%9C%BC%EB%A1%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%20%EA%B0%84%EC%84%A0%20%EC%83%9D%EC%84%B1/%25E1%2584%2580%25E1%2585%25A1%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A5%25E1%2586%25BC%25E1%2584%2589%25E1%2585%25A2%25E1%2586%25BC%25E1%2584%2589%25E1%2585%25A5%25E1%2586%25BC.gif)
+![간선생성.gif](/assets/img/posts/edge-bug.gif)
 
 - [x]  자기 자신으로 재귀적으로 드롭했을 때 간선이 추가되는지?
 - [x]  이미 간선이 표시되어있는 두 노드 사이를 드래그&드롭했을 때, 드래그시작-드롭한 순서가 달라지면 새로운 간선으로 간주됨
 - [ ]  *(+) 다른 노드와 일정 범위에서 가까워지면 Gooey Connection 표시하는 것이 본래 기획에 더 가까움*
 
-![간선생성-버그1.gif](%EB%93%9C%EB%9E%98%EA%B7%B8%EC%95%A4%EB%93%9C%EB%A1%AD%EC%9C%BC%EB%A1%9C%20%EB%85%B8%EB%93%9C%20%EA%B0%84%20%EA%B0%84%EC%84%A0%20%EC%83%9D%EC%84%B1/%25E1%2584%2580%25E1%2585%25A1%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A2%25E1%2586%25BC%25E1%2584%2589%25E1%2585%25A5%25E1%2586%25BC-%25E1%2584%2587%25E1%2585%25A5%25E1%2584%2580%25E1%2585%25B31.gif)
+![간선생성-버그1.gif](/assets/img/posts/edge-bug-solve.gif)
 
 ## 🐝 Bug 잡기…ㅠㅠ
 

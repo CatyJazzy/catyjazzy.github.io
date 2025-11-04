@@ -7,7 +7,7 @@ tags: [JavaScript]
 
 변수는 메모리 저장방식부터 호이스팅까지 다양한 내용이 있다. 추가로 공부할 때마다 이 포스팅에 계속해서 업데이트할 예정!
 
-![image.png](JavaScript%20%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8%EC%9C%84%EC%B9%98%EC%97%90%20%EB%8C%80%ED%95%B4/image.png)
+![image.png](/assets/img/posts/JavaScript-hat.png)
 
 ---
 
@@ -33,7 +33,7 @@ tags: [JavaScript]
 
 자바스크립트의 변수에 대해서는 기본적으로 2가지 절차가 있다. 변수의 “선언”과 “할당”이다. 이를 이해하려면, 변수가 메모리 상에서 어떻게 저장되는지 이해해야 한다.
 
-![image.png](JavaScript%20%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8%EC%9C%84%EC%B9%98%EC%97%90%20%EB%8C%80%ED%95%B4/image%201.png)
+![image.png](/assets/img/posts/JavaScript-variable.png)
 
 ```jsx
 var score;
@@ -58,7 +58,7 @@ var score;
 
 값을 할당하면, 해당 공간을 *지우는 것이 아니라 새로운 메모리 공간을 확보하여* 새로운 값을 넣어준다. 해당 변수명이 참조하는 공간이 달라지는 것. 아래 사진의 절차와 같다.
 
-![image.png](JavaScript%20%EB%B3%80%EC%88%98%20%EC%84%A0%EC%96%B8%EC%9C%84%EC%B9%98%EC%97%90%20%EB%8C%80%ED%95%B4/image%202.png)
+![image.png](/assets/img/posts/JavaScript-variable2.png)
 
 엄밀히 따지면, 자바스크립트의 경우 선언 후 특정 값을 **처음** 할당할 때도 이미 undefined라는 값이 채워져있다가 새로운 값을 넣는 것이므로 “재할당”에 해당한다. 이와 같은 이유로 위의 사진의 일이 발생하는 것.
  

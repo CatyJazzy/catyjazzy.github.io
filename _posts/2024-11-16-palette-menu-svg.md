@@ -7,7 +7,7 @@ tags: [React, SVG]
 
 ## 🐝 Palette UI 구현체로 고민
 
-![image.png](Palette%20UI%EB%A5%BC%20%EC%99%9C%20SVG%EB%A1%9C%20%EA%B5%AC%ED%98%84%ED%96%88%EB%82%98%EC%9A%94/image.png)
+![image.png](/assets/img/posts/palette-menu.png)
 
 - 캔버스로 그린 노드가 “드롭”했을 때 표시되어야 함.
 - 펼쳐지는 애니메이션을 적용할 수 있어야 함.
@@ -33,7 +33,7 @@ tags: [React, SVG]
 
 - 비율 유지의 방식이 다른데, SVG는 viewbox를 통한 가상 좌표 시스템으로 조정이 되며, CSS는 유지가 안될 수도 있다 (또는 육각형 크기가 변경될 때 값들을 다시 계산해줘야 하거나)
 
-![Pasted Graphic.png](Palette%20UI%EB%A5%BC%20%EC%99%9C%20SVG%EB%A1%9C%20%EA%B5%AC%ED%98%84%ED%96%88%EB%82%98%EC%9A%94/Pasted_Graphic.png)
+![Pasted Graphic.png](/assets/img/posts/svg-vs-css.png)
 
 ### 따라서 SVG를 활용하여 편리하게 구현하였다!
 

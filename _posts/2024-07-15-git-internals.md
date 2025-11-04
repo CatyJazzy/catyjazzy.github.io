@@ -27,7 +27,7 @@ git이 왜 필요할까? 필요성은 너무나 명확해 보인다. 한 번이�
 
 git이 필요한 기능을 알맞게 제공해준다는 것은 알았으나 git만의 장점을 알지는 못했다. [SVN이라는 유사한 서비스](https://jindevelopetravel0919.tistory.com/208)를 설명하는 글을 통해 이를 더 명확하게 알 수 있었다. SVN은 SubVersion의 약자로 중앙집중관리식 소스 관리 툴이다. 각각의 개발자가 하나의 중앙 저장소에 commit하는 방식이다. 
 
-![[https://jindevelopetravel0919.tistory.com/208](https://jindevelopetravel0919.tistory.com/208)](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled.png)
+![[https://jindevelopetravel0919.tistory.com/208](https://jindevelopetravel0919.tistory.com/208)](/assets/img/posts/git-cdn.png)
 
 [https://jindevelopetravel0919.tistory.com/208](https://jindevelopetravel0919.tistory.com/208)
 
@@ -49,7 +49,7 @@ git은 크게 **working directory (작업하고 있는 폴더)와 remote reposit
 
 아래의 도식을 통해 전체적인 구조를 참고해보자. 
 
-![(출처: [https://inpa.tistory.com/entry/GIT-⚡️-개념-원리-쉽게이해](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B0%9C%EB%85%90-%EC%9B%90%EB%A6%AC-%EC%89%BD%EA%B2%8C%EC%9D%B4%ED%95%B4))](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%201.png)
+![(출처: [https://inpa.tistory.com/entry/GIT-⚡️-개념-원리-쉽게이해](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B0%9C%EB%85%90-%EC%9B%90%EB%A6%AC-%EC%89%BD%EA%B2%8C%EC%9D%B4%ED%95%B4))](/assets/img/posts/git-phase.png)
 
 (출처: [https://inpa.tistory.com/entry/GIT-⚡️-개념-원리-쉽게이해](https://inpa.tistory.com/entry/GIT-%E2%9A%A1%EF%B8%8F-%EA%B0%9C%EB%85%90-%EC%9B%90%EB%A6%AC-%EC%89%BD%EA%B2%8C%EC%9D%B4%ED%95%B4))
 
@@ -69,13 +69,13 @@ git init은 ***깃 저장소를 초기화***한다. ‘초기화’의 의미는
 
 .git 폴더의 구성을 알면, git이 동작하는 세부적인 방식을 알기 편하다. 필자의 경우, 1일차 미션을 수행했던 디렉토리에서 탐구해보겠다. (이 파트는 [블로그](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/)를 이해하며 인용했다. 모든 것을 살펴보지는 않고, 동작 원리 이해에 도움이 되는 요소 위주로만 구성한다.)
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%202.png)
+![Untitled](/assets/img/posts/git-terminal-1.png)
 
 ---
 
 먼저 **`objects 폴더`**다. 
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%203.png)
+![Untitled](/assets/img/posts/git-terminal-2.png)
 
 알 수 없는 2글자의 폴더들과, 각 폴더가 가지고 있는 이상한 38글자를 확인할 수 있다. objects는 **실제 파일에 있는 값들을 해싱**하여 2자의 폴더명과 36자의 파일명으로 저장한다. 실제 파일에 있는 코드가 부분적으로 수정되면 새로운 해시값이 생기므로 파일의 차이를 인지하기에 용이하다. 
 
@@ -95,7 +95,7 @@ git init은 ***깃 저장소를 초기화***한다. ‘초기화’의 의미는
 
 이는 내 디렉토리 상의 캡처보다 gistory를 사용한 참고 블로그에서의 캡처본을 따왔다. gistory는 ~다.
 
-![(출처: [https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/))](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%204.png)
+![(출처: [https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/))](/assets/img/posts/git-terminal-3.png)
 
 (출처: [https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/))
 
@@ -103,7 +103,7 @@ git에서 관리하는 브랜치 정보가 들어있으며 로컬과 원격 저�
 
 - 내 디렉토리에서의 캡처
     
-    ![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%205.png)
+    ![Untitled](/assets/img/posts/git-index.png)
     
 
 ---
@@ -112,7 +112,7 @@ git에서 관리하는 브랜치 정보가 들어있으며 로컬과 원격 저�
 
 index 파일은 이후 살펴볼 git add 명령어를 통해 staging area에 올라온 파일들을 저장한다. 자세한 구성은 아래를 참고하자. index 파일을 통해 수정된 파일이 있는지 확인하고, 커밋할 파일을 판단하기도 한다.
 
-![(출처: [https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/))](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%206.png)
+![(출처: [https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/))](/assets/img/posts/git-internals/Untitled%206.png)
 
 (출처: [https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/](https://tecoble.techcourse.co.kr/post/2021-07-08-dot-git/))
 
@@ -132,19 +132,19 @@ index 파일은 이후 살펴볼 git add 명령어를 통해 staging area에 올
 
 그럼 스냅샷을 통해 변경된 사항을 어떻게 찍는가? ‘변경’이라 하면 기본적으로 **비교 기준과 대상**이 있어야 하는데 git은 이전 커밋과 staging area를 비교한다. 이때, HEAD라는 포인터를 통해 가장 최신의 커밋을 저장하여 활용한다. 커밋이 이루어졌을 때는, 가장 최신 커밋을 부모로 하여 Linked List 형식으로 연결한다. 
 
-![[https://thebook.io/080212/0131/](https://thebook.io/080212/0131/)](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%207.png)
+![[https://thebook.io/080212/0131/](https://thebook.io/080212/0131/)](/assets/img/posts/git-list.png)
 
 [https://thebook.io/080212/0131/](https://thebook.io/080212/0131/)
 
 **그런데 무엇이 Linkded List 형식으로 연결되는 것일가?** git commit을 통해 커밋하면 아래와 같은 개체를 만든다. 이는 파일이 3개 있는 디렉토리 하나를 관리한다고 가정했을 때의 도식이다.
 
-![(출처: [https://git-scm.com/book/ko/v2/Git-브랜치-브랜치란-무엇인가](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80))](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%208.png)
+![(출처: [https://git-scm.com/book/ko/v2/Git-브랜치-브랜치란-무엇인가](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80))](/assets/img/posts/git-tree.png)
 
 (출처: [https://git-scm.com/book/ko/v2/Git-브랜치-브랜치란-무엇인가](https://git-scm.com/book/ko/v2/Git-%EB%B8%8C%EB%9E%9C%EC%B9%98-%EB%B8%8C%EB%9E%9C%EC%B9%98%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80))
 
 우리가 앞에서 살펴보았던, blob/tree개체들 → 루트 tree (깃에서 관리하고 있는 최상위 폴더) 개체 → 커밋 개체의 구조를 확인할 수 있다. 이때 Linked List로 연결되는 것은 바로 commit 개체다. 아래와 같이 parent로 직전 최신 커밋을 가리키며 연결되는 것이다.
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%209.png)
+![Untitled](/assets/img/posts/git-prev-tree.png)
 
 * 이후에 살펴보겠지만 branch는 이 커밋 사이들을 이동할 수 있는 포인터와 같은 역할을 한다.
 
@@ -160,7 +160,7 @@ index 파일은 이후 살펴볼 git add 명령어를 통해 staging area에 올
 
 git commit에서도 살펴봤듯이 **브랜치는 커밋 사이를 쉽게 이동할 수 있는 포인터와 같은 개념**이다. 추상적으로는 이렇고, 현실에서는 여러 개발자들과 협업할 때 독립된 작업을 수행하는 공간으로 이해하는 경우가 많다. 
 
-![(출처: [https://6mini.github.io/git/2022/06/12/branch/](https://6mini.github.io/git/2022/06/12/branch/))](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2010.png)
+![(출처: [https://6mini.github.io/git/2022/06/12/branch/](https://6mini.github.io/git/2022/06/12/branch/))](/assets/img/posts/git-branch.png)
 
 (출처: [https://6mini.github.io/git/2022/06/12/branch/](https://6mini.github.io/git/2022/06/12/branch/))
 
@@ -170,7 +170,7 @@ git commit에서도 살펴봤듯이 **브랜치는 커밋 사이를 쉽게 이�
 
 git 교과서를 통해 우리가 앞서 살펴본 HEAD포인터와 커밋 개체 간의 이동을 위주로 branch개념을 살펴보자. 일단 git init을 이후 브랜치를 추가하지 않으면 **아래와 같이 main(master)브랜치만 존재**한다. **HEAD는 최신 커밋을 가리킨다.** 
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2011.png)
+![Untitled](/assets/img/posts/git-branch-2.png)
 
 이때 `git branch 브랜치명` 명령어를 통해 브랜치를 추가해보자. 
 
@@ -180,9 +180,9 @@ git branch testing
 
 **새롭게 생성된 브랜치**도 HEAD가 가리키고 있던 **최신 커밋을 가리킨다.** 
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2012.png)
+![Untitled](/assets/img/posts/git-branch-3.png)
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2013.png)
+![Untitled](/assets/img/posts/git-branch-4.png)
 
 ```bash
 git checkout testing
@@ -196,17 +196,17 @@ git checkout testing
 
 1) HEAD가 testing을 가리킨다. 
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2014.png)
+![Untitled](/assets/img/posts/git-branch-5.png)
 
 2) testing 브랜치 이동 후 새로운 커밋을 한 모습이다. main은 f30ab커밋에 그대로 머물러있다.
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2015.png)
+![Untitled](/assets/img/posts/git-branch-6.png)
 
 이때 main(matser)브랜치로 다시 이동하면 HEAD가 main이 가리키고 있던 이전 커밋 f30ab을 가리키게 되고, working directory의 파일도 그 시점으로 돌려둔다. 
 
 main 브랜치로 이동한 이후에도 계속 커밋하면 결국 특정 시점에서 갈라지는 브랜치가 생기기 마련이다. 이 때는 두 브랜치를 merge한다. 
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2016.png)
+![Untitled](/assets/img/posts/git-branch-7.png)
 
 갈라지는 브랜치는 아래의 명령어로 할 수 있다. 나의 경우, 1차 hello출력 이후 학년을 소개하는 버전과 이름을 소개하는 버전을 각각 다른 브랜치에서 커밋하였는데 아래와 같이 확인할 수 있었다.
 
@@ -214,7 +214,7 @@ main 브랜치로 이동한 이후에도 계속 커밋하면 결국 특정 시�
 git log --oneline --decorate --graph --all
 ```
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2017.png)
+![Untitled](/assets/img/posts/git-log-terminal.png)
 
 ### 갈라진 브랜치와 merge
 
@@ -222,7 +222,7 @@ git log --oneline --decorate --graph --all
 
 **1) hotfix와 main(master)를 merge할 때**
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2018.png)
+![Untitled](/assets/img/posts/hotfix-branch.png)
 
 hotfix를 통해 갑자기 등장한 긴급한 문제를 해결했다고 해보자. iss53은 53번째 이슈를 해결하기 위해 만들었던 브랜치다. hotfix는 main브랜치로 돌아가 긴급한 문제를 해결하기 위해 만든 브랜치다. C4버전에서 긴급한 문제를 해결했다. 
 
@@ -234,13 +234,13 @@ git merge hotfix
 
 이 케이스의 경우 **`fast-forward`**방식으로 합쳐진다. hotfix가 가리키는 C4의 부모가 main의 C2이기 때문에 단순히 합칠 브랜치(main)의 포인터가 최신 커밋으로 이동하게 된다. 도식으로 확인하면 아래와 같다. 이후 `git branch -d hotfix` 를 통해 삭제하면 깔끔해진다. 
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2019.png)
+![Untitled](/assets/img/posts/hotfix-branch2.png)
 
 **2) iss53과 main(master)를 merge할 때**
 
 hotfix와 다르게 main(mater)와는 별개의 경로로 커밋을 하고 있던 iss53브랜치가 있었다. iss53 브랜치로 이동한 이후에도 계속 커밋이 있었다고 가정해보자.
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2020.png)
+![Untitled](/assets/img/posts/merge1.png)
 
 이때 합칠 main(mater)브랜치로 이동하여 merge하면 어떻게 될까?
 
@@ -250,7 +250,7 @@ git merge iss53
 
 이 케이스의 경우 **`3-way-Merge`**방식으로 합쳐진다. 최신 커밋으로 브랜치 포인터를 옮겨서 합치는 것이 아니라, 합쳐진 결과를 새로운 커밋으로 만든 후에 합칠 브랜치가 해당 커밋을 가리키도록 이동한다. (이 새로운 커밋은 여러 개의 부모를 갖게 된다.)
 
-![Untitled](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2021.png)
+![Untitled](/assets/img/posts/merge2.png)
 
 * ***보통 우리가 고통 받는 충돌은 이때 발생한다.*** 3-way Merge에 실패하는 것이다. Merge하는 두 브랜치에서 같은 파일의 일부를 동시에 수정하고 합쳤다면 git은 이를 처리하지 못하고 개발자가 변경사항 충돌을 직접 처리할 수 있도록 알린다. 아래의 형식으로 표시해준다. HEAD 버전은 merge 명령을 실행할 때의 브랜치 내용, 아래쪽은 합쳐질 대상의  브랜치 내용이다. 
 
@@ -284,7 +284,7 @@ please contact us at email.support@github.com
 
 **`pull request`란 무엇인가?** 위에서 언급했듯 워크플로우 선택지는 다양하다. 모든 개발자가 SVN방식처럼 중앙집중형 방식으로 저장소에 쓰기 권한이 있을 수도 있고, 별도의 프로젝트 관리자만이 쓰기 권한을 가지게도 할 수 있다. 이때 ***pull request는 모든 변경 사항들이 병합되는 상위 흐름에서 합칠 때 각자의 작업(수정) 내용을 알리고, 수정한 내용을 적용해달라는 요청을 보내는 것***이다.
 
-![(출처: [https://velog.io/@minrami1115/PRPull-Request란](https://velog.io/@minrami1115/PRPull-Request%EB%9E%80))](Git%EC%9D%98%20%EB%82%B4%EB%B6%80%EB%8F%99%EC%9E%91/Untitled%2022.png)
+![(출처: [https://velog.io/@minrami1115/PRPull-Request란](https://velog.io/@minrami1115/PRPull-Request%EB%9E%80))](/assets/img/posts/git-pr.png)
 
 (출처: [https://velog.io/@minrami1115/PRPull-Request란](https://velog.io/@minrami1115/PRPull-Request%EB%9E%80))
 

@@ -189,7 +189,7 @@ VS
 
 챌린지 수료 후 일주일 간 시간을 보내며 한 달 간의 경험을 어떻게 해석하고 내면화할지 고민했다. 나는 이렇게 결론을 냈다. ***챌린지를 통해 "지속가능한 개발자"가 무엇인지에 대해 나만의 확신을 갖고 실천할 수 있는 힘을 갖게 되었다.*** 이전에 창업팀에서 진로와 삶의 방향에 대해 고민하며 적었던 한 글이 있다. 아래의 첨부한 그 글의 표현이 내가 생각한 지속가능한 개발자를 비유하기에 적절하다.
 
-![](https://blog.kakaocdn.net/dna/cKoGhK/btsI7UO8ikM/AAAAAAAAAAAAAAAAAAAAAEjJ6c_3auEtg3krc_3NxG7DBmiWY198hAjlp3HXOlDB/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=yNEYmDs0VoRbqAASldfCajmjq8M%3D)
+![Image](/assets/img/posts/99c-100c.jpeg)
 
 (이전 나의 글: https://third-me-dev.tistory.com/34)
 
