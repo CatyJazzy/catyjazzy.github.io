@@ -5,7 +5,7 @@ categories: [Frontend]
 tags: [React]
 ---
 
-![모바일우클릭.gif](/assets/img/posts/node-control-mobile/moblie-node.gif)
+![모바일우클릭.gif](/assets/img/posts/mobile-node.gif)
 
 ## 🤔 모바일 환경에 대한 고민 배경
 

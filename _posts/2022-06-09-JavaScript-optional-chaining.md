@@ -17,7 +17,7 @@ tags: [JavaScript]
 
 결론은. 여러 측면에서 블로그 포스팅하면 좋을듯.
 
-![image.png](/assets/img/posts/JavaScript-hat.png)
+![image.png](/assets/img/posts/Javascript-hat.png)
 
 ---
 

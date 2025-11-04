@@ -131,11 +131,11 @@ function dragBoundFunc(this: Konva.Node) {
 
 **`조절점 1개`**
 
-![조절점1.jpeg](/assets/img/posts/control-p-1)
+![조절점1.jpeg](/assets/img/posts/control-p-1.jpeg)
 
 **`조절점 2개`**
 
-![조절점2.jpeg](/assets/img/posts/control-p-2)
+![조절점2.jpeg](/assets/img/posts/control-p-2.jpeg)
 
 1개일 때는 단순히 노드 2개 중심점의 중점으로 정의하면 됐었다. 그럼 조절점 2개의 위치는 어떻게 정의하면 좋을까? “부드러운 곡선”을 생각해보면, 조절점이 두 원의 중점에 가까울수록 급격한 곡선이 생긴다.
 
