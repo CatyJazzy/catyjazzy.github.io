@@ -99,7 +99,7 @@ Base64가 필요한 이유에 대한 서술인데, 위의 등장배경에서 이
 
 토스의 개발자 센터의 인코딩 과정 설명을 통해 더 쉽게 이해할 수 있다. 
 
-![출처: [https://docs.tosspayments.com/resources/glossary/base64](/assets/img/posts/toss-base64-ex.png)](%EC%9B%B9%EC%97%90%EC%84%9C%20%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC%20%ED%91%9C%ED%98%84%ED%95%98%EB%8A%94%20%EB%B0%A9%EC%8B%9D%EC%97%90%20%EB%8C%80%ED%95%B4/image.png)
+![image.png](/assets/img/posts/toss-base64-ex.png)
 
 출처: [https://docs.tosspayments.com/resources/glossary/base64](https://docs.tosspayments.com/resources/glossary/base64)
 
